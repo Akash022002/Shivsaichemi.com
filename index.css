@@ -1,0 +1,1057 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+     
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+/* From the new nav bar was started */
+
+ 
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color:  white;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: black;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 15px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:black;
+	text-transform: uppercase;
+}
+.carousal{
+    width: 300px;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+    padding-top: 400px;
+	background-position: center center;
+	background-repeat: no-repeat;
+    width: 100%;
+    backdrop-filter: blur(2px);
+	height: 770px;
+    background-size: 30% ;
+}
+.carousel-caption {
+	padding-bottom: 20px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 60px;
+    -webkit-text-fill-color:green;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h3{
+    -webkit-text-fill-color: rgb(56, 14, 129);
+}
+.carousel-caption h2 span {
+	color: rgb(49, 49, 224);
+}
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: black;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+.logo{
+    width:30px;
+}
+.logoimg img{
+    height: 75px;
+    width:100px;
+    margin-top: 10px;
+}
+.container{
+    margin-left: 0px;
+    width: auto;
+    margin-right: 40px;
+}
+ 
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+    header .carousel-inner .item {
+        height: 40vh;
+    }
+    .navbar{
+        width:auto;
+    }
+    .logo{
+        width:30px;
+    }
+    .logoimg img{
+        height: 405px;
+        width:410px;
+        margin-left: 10px;
+        margin-top: 15px;
+    } 
+    .banner {
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-top: 150px;
+        height: 270px;
+        backdrop-filter: blur(2px);
+        background: url(../img/harshnew2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        backdrop-filter: blur(1px);
+        background-size: 40%;
+        background-position: center;
+        
+    }
+    .container{
+        margin-right: none;
+        width: 360px;
+    } 
+    .navbar a{
+        font-size: 10px;
+        font-family: Comic Sans MS;
+    }
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 40px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+        -webkit-text-fill-color: rgb(142, 138, 138);
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 110px 25px;
+	}
+    .carousel-indicators{
+        padding-bottom: 0px;
+    }
+}
+
+
+/*that was make the      bar color less background */
+/*
+.box{
+    width:auto;
+    height:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+
+}
+*/
+/* logo all the css contents  */
+/*
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    color:black;    
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+.logo img{
+    height:44px;
+    width:45px;
+    border-radius: 30px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    padding:0px 20px;
+    font-weight: 300;
+
+}*/
+/* That was apply the css effect on the <a> tag with the hand pointer w=shown in the web */
+/*
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+/* To add an hover effect on the button links */
+/*
+nav li a:hover{
+    color:#fd5e53;
+    transition:all 0.4s ease 0s;
+
+}
+*/
+
+ 
+.copyrights li{
+    padding-top: 100px;
+}
+ 
+ 
+ 
+.card3foot{
+    padding-left: 120px;
+}
+ 
+
+/* From here the sliders css was started */
+
+h2{
+    font-size:54px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#ffff;
+    font-family: 'Odibee Sans',cursive;
+    margin:0;
+}
+.carousal-wrapper{
+    height:545px;
+    position:relative;
+    width: 1100px;;
+    display:block;
+    margin:50px auto;
+    border:2px #ffff;
+    border-radius: 20px;
+    animation: slide 16s infinite;
+}
+/* That was add the new slide animation to the sliders */
+
+.carousal-item{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    box-shadow: 20px 35px 30px rgba(20,20,30);
+}
+
+.arrow{
+    border:solid black;
+    border-width:0 3px 3px 0;
+    display:inline-block;
+    padding: 12px;
+}
+.arrow-prev{
+    left:30px;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50px) rotate(135deg);
+}
+.arrow-next{
+    right:30px;
+    position:absolute;
+    top:50%; 
+}
+.arrow-prev{
+    margin-top: 35px;
+}
+.arrow-next{
+    margin-top: 230px;
+    margin-left: 1000px;
+    transform: translateY(-50px) rotate(315deg);
+}
+[id="item"]{
+    display:none;
+}
+.item-1{
+    z-index:2;
+    opacity: 1;
+    background: url(../img/work4.jpg);
+    background-size: 100%;
+}
+.item-2{
+    background:url(../img/galleryimg.jpg);
+    background-size: 100%;
+}
+.item-3{
+    background: url(../img/jagruti.jpg);
+    background-size:100%;
+}
+*:target ~ .item-1{
+    opacity: 0;
+}
+#item-1:target ~ .item-1{
+    opacity: 1;
+}
+#item-2:target ~ .item-2, #item-3:target ~ .item-3{
+    z-index:3;
+    opacity: 1;
+}
+
+/* From here the about us info was started as the main contents */
+
+.cont{
+    background-size:auto;
+    height:670px;
+    padding-top: 100px;
+    background-color: aliceblue;
+
+}
+.cardnew{
+    padding-left: 10px;
+    height:200px;
+   
+}
+.card-header{
+    height:200px;
+}
+.card-text{
+    height:100px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    -webkit-text-fill-color:black;
+    font-size:14px;
+}
+.text-box{
+    width: 108px;
+    padding-top: 14px;
+}
+.cont img{
+    height: 600px;
+    transform:translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 40px;
+}
+/* Button effect */
+.newbtn{
+    height:200px;
+    background-color: aliceblue;
+}
+.text-box{
+    padding-left: 820px;
+    width: auto;
+    padding-top: 14px;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #0de391;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #0de391;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+ 
+/* From here the various product are shown */
+
+.elementprod{
+    height:600px;
+    width:100%;
+    background-color:white;
+    box-shadow: 6px 6px 40px 20px #5f4B88FF;
+}
+.col-text{
+     padding-top:70px;
+     text-align: center;
+     font-family:cursive;
+     font-size:38px;
+     -webkit-text-fill-color: green;
+}
+.innercontainer{
+    padding-top: 100px;
+}
+
+.prodcard{
+    display:flex;
+    margin-left: 240px;
+}
+.card-body5{
+    padding-left: 100px;
+}
+.card-body6{
+    padding-left: 200px;
+}
+.card-body7{
+    padding-left: 300px;
+}
+.card-body9{
+    padding-left: 100px;
+}
+.card-body10{
+    padding-left: 200px;
+}
+.card-body11{
+    padding-left: 300px;
+}
+.prodcard img{
+    height: 80px;
+    width:140px;
+    border-radius: 50px;
+}
+.card-textprod{
+    font-family: cursive;
+    font-size: 25px;
+    padding-left: 5px;
+    width: 200px;
+}
+
+/* Second card */
+
+.prodcardsec{
+    display:flex;
+    margin-left: 0px;  
+    padding-top: 80px;
+}
+.prodcardsec{
+    display:flex;
+    margin-left: 200px;
+}
+.prodcardsec img{
+    height: 80px;
+    width:140px;
+    border-radius: 50px;
+}
+.card-textprod{
+    font-family: cursive;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.containerser{
+    height: 600px;
+    background-color: white;
+}
+.containerser-text{
+    font-size:  50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.innerser{
+    display: flex;
+    background-color: none;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.innerser img{
+    height: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.containerprod{
+    height:400px;
+    background-color:none;
+}
+.containerprod-title{
+    text-align: center;
+    margin-top:40px;
+    padding-top: 50px;
+    font-size:40px;
+    -webkit-text-fill-color: green;
+    
+}
+.productdetails{
+    display:flex;
+    padding-left: 90px;
+    padding-top: 30px;
+    
+}
+.productdetails img{
+    height:180px;
+    width:160px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 60px 10px #5f4B88FF;
+}
+.card{
+    width:19rem
+}
+.card-body{
+    padding-left: 20px;
+}
+.detailstext{
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    padding-top: 120px;
+    padding-left: 180px;
+}
+.titlecomp{
+    font-size: 30px;
+    padding-top: 0px;
+    width:330px;
+}
+.col1{
+    padding-left:150px;
+    padding-top: 40px;
+}
+.cardbody2{
+    padding-left: 100px;
+    padding-top: 40px;
+
+}
+
+/* From here the footer section was started */
+
+.containernew{
+    margin-top: auto;
+    background-color:#53585a;
+    background-size:auto;
+    height:450px;
+    -webkit-text-fill-color: whitesmoke;
+       
+}
+.footerinfo{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 70px;
+    height: 170px;
+}
+.copyrights{
+    font-size:20px;
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 450px;
+    padding-top: 100px;
+    font-weight:200;
+    list-style: none;
+    height: 80px;
+}
+ 
+.card-body iframe{
+    width:400px;
+    height:220px;
+    padding-left: 0px;
+}
+.card-title1{
+    font-size: 20px;
+}
+.cardbodylast{
+    padding-left: 500px;
+}
+.card-title2{
+    font-size: 25px;
+    padding-left: 300px;
+    width:600px;
+}
+.card-text2{
+    padding-left: 300px;
+    width:600px;
+}
+.card-body1{
+    padding-left: 100px;
+}
+.cardbodylast{
+    padding-left: 100px;
+}
+.privacycheck{
+    padding-left: 250px;
+}
+.contactcard{
+    display: flex;
+}
+.card3foot{
+    width:500px
+}
+.cardbodyser{
+    font-size: 18px;
+}
+.footertext{
+    -webkit-text-fill-color: aliceblue;
+}
+.cardbodyfooter{
+    padding-left: 100px;
+}  
+.copyrights a{
+    font-size:20px;
+    -webkit-text-fill-color: aliceblue;
+}
+
+/* From here the new slider css was started */
+
+
+
+/* From here the mobile view of the webiste was started */
+
+@media screen and (max-width:600px)
+{
+    body{
+        background:url(../img/work4.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: auto;
+        background-size:cover;
+        background-position:center;
+    }
+     
+    .copyrights a{
+        font-size:7px;
+        -webkit-text-fill-color: black;
+    }
+     
+    .box{
+        width: auto;
+    }
+    .logo{
+        font-size:8px;
+        font-weight: bold;
+        color:black;    
+        letter-spacing: 1.5px;
+        cursor:pointer;
+    }
+    .logo img{
+        height:24px;
+        width:25px;
+        border-radius: 30px;
+    }
+    a{
+        font-size: 4px;
+        padding-left: 0px;
+    }
+    .navbar-brand a{
+        font-size: 20px;
+    }
+    .cont{
+        background-size:auto;
+        height:530px;
+        padding-top: 0px;
+        background-color: white;
+        box-shadow: none;
+    }
+     
+    .cont img{
+        height: 250px;
+        width:150px;
+        box-shadow: none;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+    .row{
+        display: inline-block;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+    .col{
+        padding-left: 65px;
+    }
+    .card-body{
+        padding-left: 10px;
+    }
+    .card-text{
+        font-size: 10px;
+        height:100px;
+        padding-bottom: 50px;
+        -webkit-text-fill-color:black;
+        padding-top: 30px;
+    }
+    .titlecomp{
+        font-size: 20px;
+        padding-top: 0px;
+        padding-left: 23px;
+        box-shadow: none;
+        width:280px;
+    }
+    .col1{
+        padding-left:0px;
+        padding-top: 10px;
+    }
+    .containerser{
+        height: 750px;
+        background-color:white;
+        box-shadow: none;
+    }
+    .containerser-text{
+        font-size:  30px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .innerser{
+        display: block;
+        background-color: none;
+        padding-left: 10px;
+        padding-top: 30px;
+        font-size: 2px;
+    }
+    .innerser img{
+        height: 200px;
+        width:320px;
+        box-shadow: none;
+        border-radius: 10px;
+        margin-left: 13px;
+        box-shadow: none;
+        cursor: pointer;
+    }
+    .cardak{
+        width:250px;
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .cardbodyser{
+        font-size: 15px;
+        width: auto;
+        margin-left: 10px;
+        margin-right:10px;
+
+    }
+     
+    .containerprod{
+        height:2500px;
+        background-color:white;
+
+    }
+    .containerprod-title{
+        text-align: center;
+        margin-top:40px;
+        padding-top: 27px;
+        font-size:25px;
+        
+    }
+    .productdetails{
+        display:block;
+        padding-left: 20px;
+        padding-top: 30px;
+        
+    }
+    .productdetails img{
+        height:270px;
+        width:310px;
+        margin-right:5px;
+        margin-left: 5px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    .card{
+        width: 300px;
+    }
+    .card-body{
+        padding-left: 20px;
+    }
+    .card-title{
+        font-size: 7px;
+    }
+    .detailstext{
+        padding-left: 50px;
+        padding-top: 20px;
+        font-weight: 100;
+        font-size: 15px;
+        text-align:center;
+    }
+     
+    .card-title{
+        font-size: px;
+    }
+
+    /* From here the main fuck container css was started */
+
+    .elementprod{
+        height:1140px;
+        width:100%;
+        background-color:#f9f9f9;
+        box-shadow: none;
+    }
+    .col-text{
+         padding-top:70px;
+         text-align: center;
+         font-family:cursive;
+         font-size:18px;
+         -webkit-text-fill-color:green;
+    }
+    .innercontainer{
+        padding-top: 30px;
+    }
+    
+    .prodcard{
+        display:inline-block;
+        margin-left: 25px;
+        width: auto;
+        text-align: center;
+        padding-top: 20px;
+         
+    }
+    .prodcard img{
+        height: 40px;
+        width:60px;
+        border-radius: 0px;
+        white-space: 20px;
+        padding-left: 10px;
+    }
+    .card-textprod{
+        font-family: cursive;
+        font-size: 15px;
+        padding-left: 108px;
+    }
+    .card-body4{
+        padding-top: 0px;
+    }
+    .card-body5{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .card-body6{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .card-body7{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .card-body8{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .card-body9{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .card-body10{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .card-body11{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    /* From here the second card css was started */
+    .prodcardsec{
+        display:flex;
+        margin-left: 0px;  
+        padding-top: 40px;
+    }
+    .prodcardsec{
+        display:flex;
+        margin-left: 30px;
+    }
+    .prodcardsec img{
+        height: 40px;
+        width:60px;
+    }
+
+    /* From here the btn css was started */
+
+    .newbtn{
+        height:140px;
+        background-color: white;
+    }
+    .text-box{
+        padding-left: 200px;
+        width: 100px;
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+    .btn{
+        height: 1px;
+        width: 5px;
+        padding-right: 400px;
+    }
+    
+
+    /* From here the sliders css was started */
+
+    body{
+        background:none;
+        background-repeat: no-repeat;
+        height: 20vh;
+        background-position:center;
+    }
+    .carousal-wrapper{
+        height:200px;
+        width:auto;
+        position:relative;
+        width:auto;
+        display:block;
+        border:2px #ffff;
+        border-radius: 20px;
+        animation: slide 16s infinite;
+    }
+    .carousal-item{
+        box-shadow: none;
+    }
+    .card3foot{
+        padding-left: 0px;
+    }
+     
+    /* From here the new footer section was started */
+    .cardmap iframe{
+        padding-top: 19px;
+        width:auto;
+        height:200px;
+        padding-right: 20px;
+    }
+    .contactcard{
+        display: inline-block;
+        font-size: 10px;
+        padding-top: -10px;
+    }
+    .footerinfo{
+        
+        padding-left: 30px;
+        height: 500px;
+        width:320px;
+    }
+    .copyrights{
+        font-size:9px;
+        text-decoration: none;
+        padding-left: 60px;
+        padding-top: 90px;         
+        list-style: none;
+        height: 80px;
+        width: auto;
+    }
+    a{
+        font-size: 3px;
+    }
+    .privacycheck{
+        padding-left: 90px;
+        padding-top: 7px;
+    }
+    .containernew{
+        width: auto;
+        height:580px;
+    }
+    .containernew{
+        margin-top: auto;
+        background-color:#53585a;
+        background-size:auto;
+        height:770px;
+        -webkit-text-fill-color: whitesmoke;  
+    }
+    .card-title1{
+        font-size: 17px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    .card-text1{
+        font-size: 12px;
+        padding-left: 40px;
+        padding-top: 4px;
+    }
+    .card-body22{
+        padding-left: 30px;
+    }
+    .cardbodylast{
+        padding-left: 10px;
+    }
+    .card-body1{
+        padding-top: 45px;
+        padding-left: 15px;
+    }
+    .card-title2{
+        padding-top: 30px;
+        padding-left: 10px;
+        font-size:20px;
+        width:300px;
+    }
+    .cardbodylast{
+        width:50px;
+    }
+    .card-text2{
+        font-size: 10px;
+        padding-left: 30px;
+        padding-top: 10px;
+        width:300px;
+    }
+}

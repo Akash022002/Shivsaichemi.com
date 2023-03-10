@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+     
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color: white;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: black;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 15px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:green;
+	text-transform: uppercase;
+}
+.navbar-inverse{
+    transform: none;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+.logo{
+    width:30px;
+}
+.logoimg img{
+    height: 75px;
+    width:100px;
+    margin-top: 10px;
+}
+.container{
+    margin-left: 0px;
+    width: auto;
+    margin-right: 40px;
+}
+ 
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+    .navbar{
+        width:auto;
+    }
+    .navbar-header{
+        width: 360px;
+    }
+    .logo{
+        width:30px;
+    }
+    .logoimg img{
+        height: 405px;
+        width:410px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }  
+    .container{
+        margin-right: none;
+        width: auto;
+    }  
+    .navbar a{
+        font-size: 10px;
+        font-family: Comic Sans MS;
+    }
+	.navbar-collapse {
+		background:white;
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
+
+/*that was make the nav bar color less background */
+/*
+.box{
+    width:auto;
+    height:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+
+}*/
+/* logo all the css contents  */
+/*
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    color:black;    
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+.logo img{
+    height:44px;
+    width:45px;
+    border-radius: 30px;
+}
+
+nav li{
+    display:inline-block;
+    list-style: none;
+    padding:0px 20px;
+    font-weight: 300;
+
+}*/
+/* That was apply the css effect on the <a> tag with the hand pointer w=shown in the web */
+/*
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}*/
+/* To add an hover effect on the button links */
+/*
+nav li a:hover{
+    color:#fd5e53;
+    transition:all 0.4s ease 0s;
+
+}*/
+.container1{
+    height:400px;
+    background-color: rgba(37,37,37);
+}
+.bread-title{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 77px;
+    -webkit-text-fill-color: aliceblue;
+
+}
+.bread-cont{
+    display: flex;
+    padding-left: 700px;
+    padding-top: 20px;
+    -webkit-text-fill-color: aliceblue;
+}
+.bread-cont a{
+    font-size: 16px;
+}
+
+/* From here the all images css was started */
+
+.containerimg{
+    height:6100px;
+    
+}
+.card1{
+    display: flex;
+    width:50px;
+}
+.card1a{
+    display: flex;
+}
+.card2a{
+    display: flex;
+}
+.text-card{
+    padding-left: 190px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    width:470px;
+}
+.carda{
+    width:300px;
+}
+ 
+.text-card2{
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 35px;
+    -webkit-text-fill-color: green;
+}
+.containerimg img{
+    height: 320px;
+    width: 460px;
+    padding-left: 200px;
+    padding-top: 10px;
+     
+}
+
+/* From here the foooter section css was coded */
+
+.footerinfo{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 70px;
+    height: 170px;
+}
+.cardtitle{
+    font-size: 19px;
+}
+.copyrights{
+    font-size:20px;
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 450px;
+    padding-top: 100px;
+    font-weight:200;
+    list-style: none;
+    height: 80px;
+}
+.containernew{
+    margin-top: auto;
+    background-color:#53585a;
+    background-size:auto;
+    height:500px;
+    -webkit-text-fill-color: whitesmoke;
+       
+}
+.copyrights{
+    font-size:20px;
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 450px;
+    padding-top: 180px;
+    font-weight:200;
+     
+    list-style: none;
+    height: 80px;
+}
+.privacycheck{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.locationmap{
+    list-style:none;
+    padding-left: 670px;
+  
+}
+.card-body iframe{
+    width:570px;
+    height:220px;
+    padding-left: 150px;
+}
+.cardtitle1{
+    padding-left: 120px;
+}
+.cardtext1{
+    padding-left: 120px;
+}
+ 
+
+/* From here the all the media css was apply */
+
+@media screen and (max-width:600px)
+{
+    a{
+        font-size: 4px;
+        padding-left: 0px;
+    }
+    .bread-title{
+        text-align: center;
+        font-size: 47px;
+        -webkit-text-fill-color: aliceblue;
+    
+    }
+    .container1{
+        height: 300px;
+        background-color: rgba(24,22,28);
+    }
+    .bread-title{
+        text-align: center;
+        padding-top: 110px;
+        font-size: 34px;
+        -webkit-text-fill-color: aliceblue;
+    }
+    .bread-cont{
+        display: flex;
+        padding-left: 148px;
+        padding-top: 10px;
+        -webkit-text-fill-color: aliceblue;
+    }
+    .bread-cont a{
+        font-size: 9px;
+    }
+    .cardtitle{
+        font-size: 17px;
+        padding-left: 30px;
+    }
+    .cardtext{
+        font-size: 10px;
+        padding-left: 35px;
+    }
+     
+    .cardtitle1{
+        font-size: 17px;
+        padding-left: 30px;
+    }
+    .cardtext1{
+        font-size: 10px;
+        padding-left: 35px;
+    }
+    .card-body{
+        padding-top: 30px;
+    }
+    .containernew{
+        width:auto;
+        height:760px;
+    }
+    .footerinfo{
+        display: inline-block;
+        padding-left: 20px;
+        padding-top: 30px;
+        height: 100px;
+    }
+    .copyrights{
+        font-size:9px;
+        display:inline-block;
+        text-decoration: none;
+        padding-left: 76px;
+        padding-top: 55px;
+        font-weight:200;
+        list-style: none;
+        height: 60px;
+    }
+    .privacycheck{
+        padding-left: 78px;
+        padding-top: 12px;
+    }
+    .card1{
+        display: flex;
+        width:20px;
+        padding-left: 15px;
+    }
+    .containerimg img{
+        height: 140px;
+        width: 170px;
+        padding-left: 20px;
+        padding-top: 0px;
+         
+    }
+    .text-card{
+        padding-left: 27px;
+        font-weight: bold;
+        font-size: 14px;
+        width:170px;
+    }
+    .text-card2{
+        text-align: center;
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 18px;
+        -webkit-text-fill-color: green;
+    }
+    .containerimg{
+        height: 5150px;
+    }
+    .logo{
+        font-size:8px;
+        font-weight: bold;
+        color:black;    
+        letter-spacing: 1.5px;
+        cursor:pointer;
+    }
+    .logo img{
+        height:24px;
+        width:25px;
+        border-radius: 30px;
+    }
+    .card-body iframe{
+        width:290px;
+        height:170px;
+        padding-left: 0px;
+    }
+    .carda{
+        width:200px;
+    }
+    .card1a{
+        display: inline-block;
+        width: 140px;
+    }
+    .card2a{
+        display: inline-block;
+        width:160px;
+    }
+}

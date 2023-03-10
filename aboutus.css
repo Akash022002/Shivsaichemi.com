@@ -1,0 +1,605 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+html{
+    height:100%;
+}
+
+body{
+     
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color:  white;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: black;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 15px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:green;
+	text-transform: uppercase;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+.logo{
+    width:30px;
+}
+.logoimg img{
+    height: 75px;
+    width:100px;
+    margin-top: 10px;
+}
+.container{
+    margin-left: 0px;
+    width: auto;
+    
+}
+ 
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+    .container{
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+    .navbar{
+        width:360px;
+        height: 49px;
+
+    }
+    .logo{
+        width:30px;
+    }
+    .logoimg img{
+        height: 405px;
+        width:410px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }    
+    .navbar a{
+        font-size: 10px;
+        font-family: Comic Sans MS;
+    }
+	.navbar-collapse {
+		background: white;
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+    .container{
+        height: 50px;
+    }
+}
+
+/*that was make the nav bar color less background */
+/*.box{
+    width:auto;
+    height:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+
+}*/
+/* logo all the css contents  */
+
+/*
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    color:black;    
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+.logo img{
+    height:44px;
+    width:45px;
+    border-radius: 30px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    padding:0px 20px;
+
+}*/
+/* That was apply the css effect on the <a> tag with the hand pointer w=shown in the web */
+/*
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}*/
+/* To add an hover effect on the button links */
+
+/*
+nav li a:hover{
+    color:#fd5e53;
+    transition:all 0.4s ease 0s;
+
+}
+*/
+.container1{
+    background-color: rgba(37,37,37);
+    background-size: auto;
+    height:400px;
+    -webkit-text-fill-color: whitesmoke;
+}
+
+/* That was helpful for the adjust all the poisitions of the word on the container */
+.container1 text{
+    font-size:70px;
+    font-weight:500;
+    text-decoration: none;
+    display: inline-block;
+    padding: 160px 200px 200px 630px;
+
+}
+.container1 a{
+    font-size:25px;
+    font-weight:300;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    
+} 
+.cont{
+    background-size:auto;
+    height:1355px;
+}
+.weabout{
+    padding-left: 260px;
+    padding-top: 40px;
+    background-color: aquamarine;
+}
+.cardnew{
+    padding-left: 30px;
+    height:200px;
+   
+}
+.card-header{
+    height:200px;
+}
+.cardtext{
+    height:100px;
+    text-align: center;
+    -webkit-text-fill-color:whitesmoke;
+    padding-top: 40px;
+}
+
+.containernew{
+    margin-top: auto;
+    background-color:#53585a;
+    background-size:auto;
+    height:800px;
+    -webkit-text-fill-color: whitesmoke;
+       
+}
+
+.copyrights{
+    font-size:20px;
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 450px;
+    padding-top: 60px;
+    font-weight:200;
+     
+    list-style: none;
+    height: 80px;
+}
+.privacycheck{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.aboutinfo{
+    padding-left: 1100px;
+    padding-top: 50px;
+    text-decoration: none;
+    display:inline-block;
+    list-style: none;
+}
+.locationmap{
+    list-style:none;
+    padding-left: 670px;
+     
+}
+.aboutphoto img{
+    height:200px;
+}
+.abouttext{
+    list-style: none;
+    width:710px;
+    font-size: 16px;
+}
+.maincont{
+    min-width: 100px;
+    padding-top: 80px;
+}
+.card img{
+    height: 600px;
+    transform:translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+    box-shadow:none;
+}
+.card img :hover{
+    box-shadow: 6px 6px 40px 10px #5f4B88FF;
+    transform: translateX(20px);
+}
+.card title{
+    font-size:1px;
+    font-weight: 100;
+}
+.container1 ::before{
+    background: rgba(0,0,0,0.3);
+    z-index: -1;
+    filter:blur(10px)
+}
+.footerinfo{
+    display: flex;
+    padding-left: 120px;
+    padding-top: 60px;
+    height:400px
+}
+.card-body{
+    width:300px;
+}
+.card-body2{
+    width:300px;
+}
+.card-header li{
+    list-style: none;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 75px;
+}
+.cardhead{
+    padding-top: 0px;
+    box-shadow: none;
+    width:600px;
+    font-size: 42px;
+    -webkit-text-fill-color: green;
+}
+.row{
+    display: flex;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+.col{
+    padding-left:100px;
+    padding-top: 40px;
+}
+.abouttext{
+    padding-top: 120px;
+}
+.cardbody iframe{
+    width:400px;
+    height:210px;
+    padding-left: 20px;
+}
+.cardtitle{
+    font-size: 25px;
+    height:50px;
+    padding-left: 0px;
+}
+.cardtextnew{
+    padding-left: 0px;
+}
+.cardtitle1{
+    font-size: 25px;
+}
+.card{
+    padding-left: 100px;
+}
+.aboutimg1{
+    padding-left: 70px;
+}
+.aboutimg1 img{
+    height:200px;
+    width: 200px;
+}
+.aboutimg2{
+    padding-left: 100px;
+}
+.aboutimg2{
+    padding-top: 20px;
+    width: 550px;
+}
+.aboutimg2 img{
+    padding-top: 20px;
+    width:100px;
+    height: 175px;
+}
+.card-body11{
+    width:120px;
+}
+
+
+/* From here we are able to add the media tag for conver your website into mobile view */
+
+@media screen and (max-width:600px)
+{
+    .box{
+        width:auto;
+        height:1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background: rgba(0,0,0,0.2);
+    
+    }
+    .container{
+        background-size: auto;
+        height:400px;
+    }
+    .card-body11{
+        width:200px;
+    }
+    .container1 li{
+        height:200px;
+        width:250px;
+    }
+    .logo{
+        font-size:8px;
+        font-weight: bold;
+        color:black;    
+        letter-spacing: 1.5px;
+        cursor:pointer;
+    }
+    .logo img{
+        height:24px;
+        width:25px;
+        border-radius: 30px;
+    }
+    .cardtext a{
+        font-size: 4px;
+        font-weight: 100;
+        color:black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .container1{
+        background-color: rgba(24,22,28);
+        background-size: auto;
+        height:300px;
+        -webkit-text-fill-color: aliceblue;
+    }
+    .container1 li{
+        font-size:35px;
+        font-weight:500;
+        text-decoration: none;
+        height:50px;
+        width: auto;
+        list-style: none;
+        padding-left: 140px;
+        padding-top: 100px;
+    }
+    .container1 a{
+        font-size:8px;
+        font-weight:100;
+        cursor: pointer;
+        display:inline-block;
+        text-decoration: none;
+        padding-top:0px;
+    } 
+    .cardnew{
+        padding-left: 00px;
+        height:150px;
+       
+    }
+    .card-header{
+        height:50px;
+        padding-top: 30px;
+    }
+    .cardtext{
+        margin-top: 20px;
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+    .card-header li{
+        list-style: none;
+        padding-right: 120px;
+        padding-top: 80px;
+        font-size: 34px;
+    }
+     
+    .card img{
+        height: 350px;
+        width: 250px;
+        transform:translateX(0px);
+        transition: 1.1s all;
+        cursor: pointer;
+        box-shadow:none;
+    }
+    .cardhead{
+        padding-top: 0px;
+        box-shadow: none;
+        width:290px;
+        font-size: 20px;
+        -webkit-text-fill-color: rgb(187, 20, 159);
+    }
+    .abouttext{
+        font-size: 8px;
+        width:280px;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .row{
+        display: inline-block;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .col{
+        padding-left:15px;
+        padding-top: 20px;
+        width:250px;
+    }
+    .cont{
+        background-size:auto;
+        height:1310px;
+    }
+    .footerinfo{
+        display: inline-block;
+        padding-left: 20px;
+        padding-top: 30px;
+        height: 100px;
+    }
+    .copyrights{
+        font-size:9px;
+        display:inline-block;
+        text-decoration: none;
+        padding-left: 70px;
+        padding-top: 80px;
+        font-weight:200;
+        padding-bottom: 50px;
+        list-style: none;
+        height: 60px;
+    }
+    .privacycheck{
+        padding-left: 89px;
+        padding-top: 7px;
+        margin-bottom: 10px;
+    }
+    .cardtitle {
+        font-size:17px;
+        padding-left: 30px;
+    }
+    .cardtextnew{
+        font-size: 10px;
+        padding-left: 35px;
+    }
+    .cardbody{
+        font-size: 8px;
+        padding-top:20px;
+        
+    }
+    .cardtitle1{
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size:17px;
+    }
+    .cardtext1{
+        font-size: 10px;
+        padding-left: 35px;
+    }
+    .containernew{
+        width:auto;
+        height:760px;
+    }
+    .cardbody iframe{
+        width:320px;
+        height:170px;
+    }
+    .card{
+        padding-left: 0px;
+    }
+    .aboutimg1{
+        padding-left: 37px;
+    }
+    .aboutimg1 img{
+        height:170px;
+        width: 170px;
+    }
+    .aboutimg2{
+        padding-left: 0px;
+        padding-top: 28px;
+        width:auto;
+        margin-bottom: 10px;
+    }
+    .aboutimg2 img{
+        padding-top: 20px;
+        width:60px;
+        height: 105px;
+    }
+    .weabout{
+        padding-left: 25px;
+        padding-top: 20px;
+        background-color: white;
+    }
+    .weabout img{
+        height: 240px;
+        width: 340px;
+    }
+}
